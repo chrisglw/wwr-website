@@ -1,0 +1,22 @@
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.h1 {
+    grid-column: 1/4;
+    text-align: center;
+}
+
+fb {
+    grid-column: 1/2;
+    align-items: center;
+}
+
+ig {
+    grid-column: 2/3;
+}
+
+tw {
+    grid-column: 3/4;
+}
